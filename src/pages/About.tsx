@@ -327,10 +327,10 @@ const About = () => {
                                     {exec.phone && (
                                         <a
                                             href={`tel:${exec.phone}`}
-                                            className="hidden lg:inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors"
+                                            className="inline-flex items-center gap-1 lg:gap-2 text-xs lg:text-sm text-muted-foreground hover:text-primary transition-colors"
                                         >
-                                            <Phone className="w-4 h-4" />
-                                            <span className="truncate">{exec.phone}</span>
+                                            <Phone className="w-3 h-3 lg:w-4 lg:h-4 flex-shrink-0" />
+                                            <span className="break-all">{exec.phone}</span>
                                         </a>
                                     )}
                                     {/* {exec.email && (
