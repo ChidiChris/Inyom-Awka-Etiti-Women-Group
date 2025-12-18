@@ -1,4 +1,4 @@
-# Welcome to St. John's registration handler
+# Welcome to Inyom (Iyom) Awka-Etiti Women’s Group Website
 
 ## Project info
 
