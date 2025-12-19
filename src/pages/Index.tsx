@@ -13,23 +13,23 @@ import hero4 from "@/assets/hero-4.jpeg";
 const heroSlides = [
   {
     image: hero1,
-    title: "Compassionate Care for Every Community",
-    subtitle: "Bringing healthcare to communities"
+    title: "Promoting unity among women of Awka-Etiti",
+    subtitle: "Empowering women through togetherness and collective growth"
   },
   {
     image: hero2,
-    title: "Together We Make Healthcare Accessible",
-    subtitle: "Making a difference together"
+    title: "Collaborating with community leaders and development partners",
+    subtitle: "Working hand in hand with leaders and partners for sustainable development"
   },
   {
     image: hero3,
-    title: "Transforming Lives One Good at a Time",
-    subtitle: "One patient at a time"
+    title: "Preserving and promoting the cultural heritage of Awka-Etiti women",
+    subtitle: "Upholding heritage, inspiring the future"
   },
   {
     image: hero4,
-    title: "Transforming Lives One kid at a Time",
-    subtitle: "Bringing healthcare to all"
+    title: "Improving Social and Economic Wellbeing",
+    subtitle: "Building Stronger, More Prosperous Communities"
   }
   // Add pictures on import then declear it's value on the heroSlides array above
 ];
@@ -83,7 +83,7 @@ const Index = () => {
                 {heroSlides[currentSlide].title}
               </h1>
               <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto animate-fade-up opacity-0" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
-                We are committed to providing accessible healthcare and other services to underserved communities through compassionate outreach programs.
+                We are committed to providing skills acquisition and other services to underserved communities through compassionate outreach programs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
                 <Button variant="hero" size="xl" asChild>
