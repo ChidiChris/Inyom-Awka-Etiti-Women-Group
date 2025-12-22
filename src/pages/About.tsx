@@ -102,7 +102,7 @@ const About = () => {
                             Who We Are
                         </h1>
                         <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto animate-fade-up opacity-0" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
-                            Discover our story, mission, and the dedicated team behind our medical outreach programs
+                            Discover our story, mission, and the dedicated team behind our outreach programs
                         </p>
                     </div>
                 </HeroSlider>
@@ -284,7 +284,7 @@ const About = () => {
                             {[
                                 { title: "Compassion", desc: "We serve with empathy and genuine care for every individual" },
                                 { title: "Integrity", desc: "We uphold the highest ethical standards in all our operations" },
-                                { title: "Excellence", desc: "We strive for quality in every aspect of our medical services" },
+                                { title: "Excellence", desc: "We strive for quality in every aspect of our services" },
                                 { title: "Community", desc: "We believe in the power of partnership and collaboration" },
                             ].map((value, index) => (
                                 <div key={index} className="bg-muted/50 rounded-2xl p-6 text-center hover:bg-muted transition-colors duration-300">

@@ -61,10 +61,10 @@ const Support = () => {
                 <Heart className="w-10 h-10 text-secondary" />
               </div>
               <h2 className="font-display text-2xl lg:text-3xl font-bold text-foreground mb-4">
-                Support Our Medical Mission
+                Support Our Outreach Mission
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                Every donation, no matter the size, makes a difference. Your contribution helps us provide free medical care, essential medicines, and health education to communities in need.
+                Every donation, no matter the size, makes a difference. Your contribution helps us deliver vital programs, resources, and support to communities in need.
               </p>
             </div>
 
@@ -152,9 +152,9 @@ const Support = () => {
             {/* Impact Stats */}
             <div className="mt-12 grid grid-cols-3 gap-4">
               {[
-                { value: "₦10,000", label: "Provides medicines for 5 patients" },
-                { value: "₦50,000", label: "Sponsors a community screening" },
-                { value: "₦100,000", label: "Funds a full outreach day" },
+                { value: "₦10,000+", label: "Provides support for 5 individuals" },
+                { value: "₦50,000+", label: "Sponsors a community screening" },
+                { value: "₦100,000+", label: "Funds a full outreach day" },
               ].map((item, index) => (
                 <div key={index} className="text-center p-4 bg-card rounded-xl shadow-soft">
                   <p className="font-display text-xl lg:text-2xl font-bold text-secondary mb-1">

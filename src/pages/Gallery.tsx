@@ -84,7 +84,7 @@ const Gallery = () => {
                         Moments of Impact
                     </h1>
                     <p className="text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto animate-fade-up opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-                        Explore moments from our medical outreach programs and community health initiatives
+                        Explore moments from our outreach programs and community initiatives
                     </p>
                 </div>
             </section>

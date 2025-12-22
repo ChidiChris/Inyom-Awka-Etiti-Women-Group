@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Heart, Users, Target, ArrowRight, Stethoscope, Globe, HandHeart } from "lucide-react";
+import { Heart, Users, Target, ArrowRight, Stethoscope, Globe, HandHeart, LayoutGrid } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 import { HeroSlider } from "@/components/shared/HeroSlider";
 import { SectionHeader } from "@/components/shared/SectionHeader";
@@ -36,9 +36,9 @@ const heroSlides = [
 
 const quickLinks = [
   {
-    icon: Stethoscope,
+    icon: LayoutGrid,
     title: "Our Programs",
-    description: "Explore our medical outreach initiatives",
+    description: "Explore our outreach initiatives",
     href: "/programs"
   },
   {
@@ -107,18 +107,18 @@ const Index = () => {
                 <span className="text-primary font-medium text-sm">About INYOM</span>
               </div>
               <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
-                Transforming Lives Through Compassionate Healthcare
+                Transforming Lives Through Compassion and Service
               </h2>
               <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-                The Inyom (Iyom) Awka-Etiti Women’s Group is the recognized women’s association of Awka-Etiti. Rooted in the 
-                town’s indigenous social structure, the group emerged from long-standing women’s institutions that historically 
-                promoted unity, cultural values, and mutual support among women. Due to its deep pre-colonial origins and reliance 
+                The Inyom (Iyom) Awka-Etiti Women’s Group is the recognized women’s association of Awka-Etiti. Rooted in the
+                town’s indigenous social structure, the group emerged from long-standing women’s institutions that historically
+                promoted unity, cultural values, and mutual support among women. Due to its deep pre-colonial origins and reliance
                 on oral tradition, the group does not have a single documented founding date.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Over the years, Inyom Awka-Etiti has evolved into a formally organized women’s wing that actively contributes to 
-                community development, economic empowerment, and social welfare. Through collective leadership and sustained commitment, 
-                the group continues to play a vital role in advancing the wellbeing of women and supporting the overall development of the 
+                Over the years, Inyom Awka-Etiti has evolved into a formally organized women’s wing that actively contributes to
+                community development, economic empowerment, and social welfare. Through collective leadership and sustained commitment,
+                the group continues to play a vital role in advancing the wellbeing of women and supporting the overall development of the
                 Awka-Etiti community.
               </p>
               <Button variant="default" size="lg" asChild>
@@ -131,13 +131,13 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="bg-gradient-to-br from-primary to-primary/80 rounded-3xl p-6 text-primary-foreground shadow-lg shadow-primary/20">
                   <Users className="w-10 h-10 mb-3" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display">5,000+</p>
-                  <p className="text-sm opacity-90">Patients Served</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display">500+</p>
+                  <p className="text-sm opacity-90">People Served</p>
                 </div>
                 <div className="bg-muted rounded-3xl p-6 shadow-soft">
                   <Heart className="w-10 h-10 mb-3 text-secondary" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display text-foreground">50+</p>
-                  <p className="text-sm text-muted-foreground">Medical Missions</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display text-foreground">10+</p>
+                  <p className="text-sm text-muted-foreground">Outreach Missions</p>
                 </div>
               </div>
               <div className="space-y-4 pt-8">
@@ -148,7 +148,7 @@ const Index = () => {
                 </div>
                 <div className="bg-gradient-to-br from-accent to-accent/80 rounded-3xl p-6 shadow-lg shadow-accent/20">
                   <Target className="w-10 h-10 mb-3 text-accent-foreground" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display text-accent-foreground">100+</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display text-accent-foreground">30+</p>
                   <p className="text-sm text-accent-foreground/80">Volunteers</p>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <SectionHeader
             title="Get Involved"
-            subtitle="Explore the ways you can be part of our mission to bring quality healthcare to underserved communities."
+            subtitle="Explore the ways you can be part of our mission to bring quality change to underserved communities."
           />
           <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
             {quickLinks.map((link, index) => (
@@ -198,7 +198,7 @@ const Index = () => {
               Join Us in Making a Difference
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8">
-              Your support helps us reach more communities, provide essential medical care, and create lasting health impact. Together, we can transform lives.
+             Your support helps us reach more communities, provide essential support, and create lasting positive impact. Together, we transform lives.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -207,7 +207,7 @@ const Index = () => {
                 asChild
                 className="animate-bounce hover:animate-none shadow-lg shadow-white/30 hover:shadow-white/50 transition-shadow"
                 style={{ animationDuration: "3s" }}
-                // className="shadow-lg shadow-white/30 hover:shadow-white/50 transition-shadow"
+              // className="shadow-lg shadow-white/30 hover:shadow-white/50 transition-shadow"
               >
                 <Link to="/support">Donate Now</Link>
               </Button>
@@ -215,8 +215,8 @@ const Index = () => {
                 variant="heroOutline"
                 size="xl"
                 asChild
-                // className="animate-bounce hover:animate-none"
-                // style={{ animationDuration: "6s" }}
+              // className="animate-bounce hover:animate-none"
+              // style={{ animationDuration: "6s" }}
               >
                 <Link to="/contact">Contact Us</Link>
               </Button>

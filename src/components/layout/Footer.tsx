@@ -76,10 +76,10 @@ export function Footer() {
             <h4 className="font-display text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-3">
               {[
-                { icon: Facebook, href: "#", label: "Facebook" },
-                { icon: Twitter, href: "#", label: "Twitter" },
+                { icon: Facebook, href: "https://web.facebook.com/profile.php?id=61585597491530", label: "Facebook" },
+                { icon: Twitter, href: "https://x.com/Inyomakwaetiti", label: "Twitter" },
                 { icon: Instagram, href: "#", label: "Instagram" },
-                { icon: Linkedin, href: "#", label: "LinkedIn" },
+                // { icon: Linkedin, href: "#", label: "LinkedIn" },
               ].map((social) => (
                 <a
                   key={social.label}

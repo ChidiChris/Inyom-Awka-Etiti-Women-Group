@@ -144,10 +144,10 @@ const Programs = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {[
-              { value: "1,570+", label: "Patients Served in 2024" },
+              { value: "570+", label: "People Served" },
               { value: "4", label: "Programs Completed" },
               { value: "4", label: "States Reached" },
-              { value: "50+", label: "Volunteers Mobilized" }
+              { value: "30+", label: "Volunteers Mobilized" }
             ].map((stat, index) => (
               <div key={index} className="text-center bg-card rounded-2xl p-6 shadow-soft">
                 <p className="font-display text-3xl lg:text-4xl font-bold text-primary mb-2">
@@ -176,7 +176,7 @@ const Programs = () => {
               Support Our Next Outreach
             </h2>
             <p className="text-primary-foreground/80 mb-8">
-              Your donation helps us organize more medical outreach programs and reach more communities in need.
+              Your donation helps us organize more outreach programs and reach more communities in need.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
