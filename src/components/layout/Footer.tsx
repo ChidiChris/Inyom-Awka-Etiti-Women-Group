@@ -77,8 +77,8 @@ export function Footer() {
             <div className="flex gap-3">
               {[
                 { icon: Facebook, href: "https://web.facebook.com/profile.php?id=61585597491530", label: "Facebook" },
-                { icon: Twitter, href: "https://x.com/Inyomakwaetiti", label: "Twitter" },
-                { icon: Instagram, href: "#", label: "Instagram" },
+                { icon: Twitter, href: "https://x.com/Inyomawkaetiti", label: "Twitter" },
+                { icon: Instagram, href: "https://www.instagram.com/iyomakwaetitianambra/", label: "Instagram" },
                 // { icon: Linkedin, href: "#", label: "LinkedIn" },
               ].map((social) => (
                 <a
