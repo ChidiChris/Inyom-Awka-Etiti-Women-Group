@@ -9,10 +9,12 @@ import hero1 from "@/assets/hero-1.jpeg";
 import hero2 from "@/assets/hero-2.jpeg";
 import hero3 from "@/assets/hero-3.jpeg";
 import hero4 from "@/assets/hero-4.jpeg";
-
+import hero5 from "@/assets/hero-5.jpeg";
+// import manifestoimg from "@/assets/manisfesto.jpeg";
+import manifestoImg from "@/assets/manifesto.jpeg";
 const heroSlides = [
   {
-    image: hero1,
+    image: hero5,
     title: "Promoting unity among women of Awka-Etiti",
     subtitle: "Empowering women through togetherness and collective growth"
   },
@@ -98,6 +100,61 @@ const Index = () => {
         </HeroSlider>
       </section>
 
+      {/* Manifesto Section */}
+      <section className="py-16 lg:py-24 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Image on the left */}
+            <div className="relative">
+              <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-elevated">
+                <img
+                  src={manifestoImg}
+                  alt="Founder of INYOM Medical Outreach"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* Decorative element */}
+              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl -z-10" />
+            </div>
+
+            {/* Manifesto text on the right */}
+            <div>
+              <div className="inline-flex items-center gap-2 bg-secondary/10 rounded-full px-4 py-2 mb-4">
+                <Heart className="w-4 h-4 text-secondary" />
+                <span className="text-secondary font-medium text-sm">Our Manifesto</span>
+              </div>
+              <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl font-bold text-foreground mb-6">
+                A Message from Our President.
+              </h2>
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
+                <p>
+                  "Women Empowerment: Build powerful, independent women via leadership training, skills development, and stronger community roles."
+                </p>
+                <p>
+                  "Healthcare Access: Deliver medical outreaches, awareness programs, and partnerships for affordable family health services."
+                </p>
+                <p>
+                  "Youth Education Support: Guide youth toward school admissions, scholarships, and better learning opportunities for a brighter future."
+                </p>
+                <p>
+                  "Financial Inclusion: Provide low-interest cooperative loans to grow women’s businesses and achieve economic independence."
+                </p>
+                <p>
+                  "Agricultural Advancement: Access government grants, modern farming training, and cooperative support to enhance productivity and food security."
+                </p>
+                <p>
+                  "Technology & Innovation — Introduce digital literacy, ICT training, and tech projects to prepare women and youth for the modern economy."
+                </p>
+              </div>
+              <p className="mt-6 font-display text-lg font-semibold text-foreground">
+                - President, INYOM Medical Outreach
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Welcome Section */}
       <section className="py-16 lg:py-24 bg-card">
         <div className="container mx-auto px-4">
@@ -131,24 +188,24 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="bg-gradient-to-br from-primary to-primary/80 rounded-3xl p-6 text-primary-foreground shadow-lg shadow-primary/20">
                   <Users className="w-10 h-10 mb-3" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display">500+</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display">200+</p>
                   <p className="text-sm opacity-90">People Served</p>
                 </div>
                 <div className="bg-muted rounded-3xl p-6 shadow-soft">
                   <Heart className="w-10 h-10 mb-3 text-secondary" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display text-foreground">10+</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display text-foreground">1+</p>
                   <p className="text-sm text-muted-foreground">Outreach Missions</p>
                 </div>
               </div>
               <div className="space-y-4 pt-8">
                 <div className="bg-gradient-to-br from-secondary to-secondary/80 rounded-3xl p-6 text-secondary-foreground shadow-lg shadow-secondary/20">
                   <Globe className="w-10 h-10 mb-3" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display">20+</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display">7+</p>
                   <p className="text-sm opacity-90">Communities Reached</p>
                 </div>
                 <div className="bg-gradient-to-br from-accent to-accent/80 rounded-3xl p-6 shadow-lg shadow-accent/20">
                   <Target className="w-10 h-10 mb-3 text-accent-foreground" />
-                  <p className="text-3xl lg:text-4xl font-bold font-display text-accent-foreground">30+</p>
+                  <p className="text-3xl lg:text-4xl font-bold font-display text-accent-foreground">20+</p>
                   <p className="text-sm text-accent-foreground/80">Volunteers</p>
                 </div>
               </div>
@@ -198,7 +255,7 @@ const Index = () => {
               Join Us in Making a Difference
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8">
-             Your support helps us reach more communities, provide essential support, and create lasting positive impact. Together, we transform lives.
+              Your support helps us reach more communities, provide essential support, and create lasting positive impact. Together, we transform lives.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

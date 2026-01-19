@@ -11,8 +11,15 @@ import exec1 from "@/assets/exec-1.jpeg";
 import exec2 from "@/assets/exec-2.jpeg";
 import exec3 from "@/assets/exec-3.jpeg";
 import exec4 from "@/assets/exec-4.jpeg";
-import program1 from "@/assets/program-1.jpeg";
-import program2 from "@/assets/program-2.jpeg";
+import president from "@/assets/president.jpeg";
+import vicepresident from "@/assets/vicepresident.jpeg";
+import asstsecretary from "@/assets/asstsecretary.jpeg";
+import treasurer from "@/assets/treasurer.jpeg";
+import provost2 from "@/assets/provost-2.jpeg";
+import finsec from "@/assets/finsec.jpeg";
+import secretary from "@/assets/secretary.jpeg";
+import program1 from "@/assets/program-1-copy.jpeg";
+import program2 from "@/assets/program-2-copy.jpeg";
 import person4 from "@/assets/person-4.png"
 
 const aboutSlides = [
@@ -25,42 +32,42 @@ const executives = [
     {
         name: "Mrs. Okpala Amaka",
         position: "President General",
-        image: person4,
+        image: president,
         phone: "+234 706 575 5655",
         // email: "chidi@gmail.com",
     },
     {
         name: "Umechukwu Oby",
         position: "Vice President General",
-        image: person4,
+        image: vicepresident,
         phone: "+234 814 650 5046",
         // email: "vp@inyom.org"
     },
     {
         name: "Ochuba Oby",
         position: "Secretary",
-        image: person4,
+        image: secretary,
         phone: "+234 816 417 8967",
         // email: "secretary@inyom.org"
     },
     {
         name: "Emeli Dorathy",
         position: "Assist. Secretary",
-        image: person4,
+        image: asstsecretary,
         phone: "+234 703 132 4517",
         // email: "treasurer@inyom.org"
     },
     {
         name: "Okafor Chizolu",
         position: "Financial Secretary",
-        image: person4,
+        image: finsec,
         phone: "+234 814 476 8140",
         // email: "treasurer@inyom.org"
     },
     {
         name: "Chimezie Chiamaka",
         position: "Treasurer",
-        image: person4,
+        image: treasurer,
         phone: "+234 806 890 8429",
         // email: "treasurer@inyom.org"
     },
@@ -81,7 +88,7 @@ const executives = [
     {
         name: "Okeke Chinonye",
         position: "Provost II",
-        image: person4,
+        image: provost2,
         phone: "+234 803 481 7695",
         // email: "treasurer@inyom.org"
     },

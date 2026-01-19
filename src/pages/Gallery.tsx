@@ -4,37 +4,56 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { X, Images, ChevronDown } from "lucide-react";
 import gallery1 from "@/assets/gallery-1.jpeg";
-import gallery2 from "@/assets/gallery-2.jpeg";
-import gallery3 from "@/assets/gallery-3.jpeg";
-import gallery4 from "@/assets/gallery-4.jpeg";
-import gallery5 from "@/assets/gallery-5.jpeg";
-import gallery6 from "@/assets/gallery-6.jpeg";
-import gallery7 from "@/assets/gallery-7.jpeg";
+// import gallery2 from "@/assets/gallery-2.jpeg";
+// import gallery3 from "@/assets/gallery-3.jpeg";
+// import gallery4 from "@/assets/gallery-4.jpeg";
+// import gallery5 from "@/assets/gallery-5.jpeg";
+// import gallery6 from "@/assets/gallery-6.jpeg";
+// import gallery7 from "@/assets/gallery-7.jpeg";
+import volunteer1 from "@/assets/volunteers-1.jpeg";
+import volunteer2 from "@/assets/volunteers-2.jpeg";
+import volunteer3 from "@/assets/volunteers-3.jpeg";
+import outreach1 from "@/assets/outreach-1.jpeg";
+import outreach2 from "@/assets/outreach-2.jpeg";
+import outreach3 from "@/assets/outreach-3.jpeg";
+import outreach4 from "@/assets/outreach-4.jpeg";
+import outreach5 from "@/assets/outreach-5.jpeg";
+import mission1 from "@/assets/mission-1.jpeg";
+import mission2 from "@/assets/mission-2.jpeg";
+import mission3 from "@/assets/mission-3.jpeg";
+import mission4 from "@/assets/mission-4.jpeg";
+import event1 from "@/assets/event-1.jpeg";
+import event2 from "@/assets/event-2.jpeg";
+import event3 from "@/assets/event-3.jpeg";
+import event4 from "@/assets/event-4.jpeg";
+import event5 from "@/assets/event-5.jpeg";
+import event6 from "@/assets/event-6.jpeg";
+import event7 from "@/assets/event-7.jpeg";
 import hero1 from "@/assets/hero-1.jpeg";
-import hero2 from "@/assets/hero-2.jpeg";
-import hero3 from "@/assets/hero-3.jpeg";
-import program1 from "@/assets/program-1.jpeg";
-import program2 from "@/assets/program-2.jpeg";
-import program3 from "@/assets/program-3.jpeg";
-import program4 from "@/assets/program-4.jpeg";
 
 const categories = ["All", "Outreach", "Volunteers", "Medical Missions", "Events"];
 
 const galleryImages = [
-    { src: gallery1, category: "Volunteers", title: "Medical Volunteer Team", year: "2024", description: "Our dedicated team of medical volunteers gathered before heading to the community outreach program in Abia State." },
-    { src: gallery2, category: "Outreach", title: "Community Outreach Queue", year: "2024", description: "Community members patiently waiting for their turn to receive free medical consultations and medications." },
-    { src: gallery3, category: "Medical Missions", title: "Patient Registration", year: "2024", description: "Volunteers registering patients and collecting medical history before consultations begin." },
-    { src: gallery4, category: "Medical Missions", title: "Child Vaccination Program", year: "2024", description: "A young child receiving vaccination as part of our maternal and child health program." },
-    { src: gallery5, category: "Outreach", title: "Health Education Session", year: "2024", description: "Community health education session teaching preventive healthcare practices." },
-    { src: gallery6, category: "Events", title: "Medical Supplies Distribution", year: "2024", description: "Distribution of essential medical supplies and medications to community health workers." },
-    { src: gallery7, category: "Medical Missions", title: "Medical Supplies Distribution", year: "2024", description: "Distribution of essential medical supplies and medications to community health workers." },
-    { src: hero1, category: "Volunteers", title: "Team Meeting", year: "2024", description: "Strategic planning meeting with healthcare professionals and volunteers." },
-    { src: hero2, category: "Outreach", title: "Medicine Distribution", year: "2024", description: "Free distribution of essential medicines to patients after consultations." },
-    { src: hero3, category: "Medical Missions", title: "Patient Consultation", year: "2024", description: "A doctor providing one-on-one consultation to a patient during the outreach." },
-    { src: program1, category: "Medical Missions", title: "Health Screening Camp", year: "2024", description: "Comprehensive health screening including blood pressure, blood sugar, and general health checks." },
-    { src: program2, category: "Medical Missions", title: "Eye Care Outreach", year: "2024", description: "Free eye examinations and distribution of prescription glasses to community members." },
-    { src: program3, category: "Outreach", title: "Maternal Health Program", year: "2023", description: "Prenatal care and nutrition counseling for expectant mothers in rural communities." },
-    { src: program4, category: "Events", title: "Drug Distribution Drive", year: "2023", description: "Large-scale distribution of antimalarials, antibiotics, and essential medications." },
+    { src: volunteer1, category: "Volunteers", title: "Medical Volunteer Team", year: "2026", description: "Few of our team of medical volunteers gathered to take a group photo with the president before commencing the community outreach program in Anambra State." },
+    { src: volunteer2, category: "Volunteers", title: "Medical Volunteer Team", year: "2026", description: "The medical team recording essential details during the community outreach program in Anambra State." },
+    { src: volunteer3, category: "Volunteers", title: "Medical Volunteer Team", year: "2026", description: "A medical volunteer reviews details on a medication package as part of patient care during the outreach program." },
+    { src: hero1, category: "Volunteers", title: "Team Meeting", year: "2026", description: "Members of the executive team alongside other participants pose for a group photograph followed by a Strategic planning meeting." },
+    { src: outreach1, category: "Outreach", title: "Medicine Distribution", year: "2026", description: "Free distribution of essential medicines to patients after consultations." },
+    { src: outreach2, category: "Outreach", title: "Relief Items Distribution", year: "2026", description: "Mrs. Augustina Amaka Okpala (Achalugo Nwanyi Mmaruruno) PG. Inyom Awka Etiti, Idemili South, Anambra State, sharing relief items to attendees of the outreach program." },
+    { src: outreach3, category: "Outreach", title: "Drug Distribution Drive", year: "2026", description: "Large-scale distribution of antimalarials, antibiotics, and essential medications." },
+    { src: outreach4, category: "Outreach", title: "Community Outreach Queue", year: "2026", description: "Community members patiently waiting for their turn to receive free medical consultations and medications." },
+    { src: outreach5, category: "Outreach", title: "Health Education Session", year: "2026", description: "Community health education session teaching preventive healthcare practices while giving clear directives for medication" },
+    { src: mission1, category: "Medical Missions", title: "Patient Registration", year: "2026", description: "Volunteers registering patients and collecting medical history before consultations begin." },
+    { src: mission2, category: "Medical Missions", title: "Blood Pressure Screening Session", year: "2026", description: "Medical volunteers conduct blood pressure checks for community members as part of the outreach program, helping to identify hypertension and promote early health intervention." },
+    { src: mission3, category: "Medical Missions", title: "Blood Sugar Testing", year: "2026", description: "A medical volunteer conducts a blood sugar test for a community member as part of the outreach program, supporting early detection and management of diabetes." },
+    { src: mission4, category: "Medical Missions", title: "Patient Consultation", year: "2026", description: "A doctor providing one-on-one consultation to a patient during the outreach." },
+    { src: event1, category: "Events", title: "Addressing", year: "2026", description: "The Host with the chairman of ogunzele community." },
+    { src: event2, category: "Events", title: "Guest", year: "2026", description: "Former executive members of the Inyom Awka etiti women's wing" },
+    { src: event3, category: "Events", title: "Guest", year: "2026", description: "The president general welcoming the Inyom Awka Etiti women's wing" },
+    { src: event4, category: "Events", title: "Guest", year: "2026", description: "Opening remark by the Bishop of Bauchi Most Rev. Dr. Hilary Nanman Dachelem CMF as heavily represented by the Vicar General Adinistrations Very Rev. Fr. Raphael Agbata." },
+    { src: event5, category: "Events", title: "Guest", year: "2026", description: "Invited Guest of honour in attendance." },
+    { src: event6, category: "Events", title: "Guest", year: "2026", description: "Clergymen in attendance having a chat with the host." },
+    { src: event7, category: "Events", title: "Guest", year: "2026", description: "Prayer session" },
 ];
 
 const IMAGES_PER_PAGE = 8;
