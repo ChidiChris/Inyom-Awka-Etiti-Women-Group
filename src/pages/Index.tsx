@@ -147,7 +147,7 @@ const Index = () => {
                 </p>
               </div>
               <p className="mt-6 font-display text-lg font-semibold text-foreground">
-                - President, Mrs. Augustina Amaka Okpala (Achalugo Nwanyi Mmaruruno) PG. Inyom Awka Etiti, Idemili South, Anambra State.
+                - Mrs. Augustina Amaka Okpala (Achalugo Nwanyi Mmaruruno) PG. Inyom Awka Etiti, Idemili South, Anambra State.
               </p>
             </div>
           </div>
