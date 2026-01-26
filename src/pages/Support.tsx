@@ -8,7 +8,7 @@ import hero2 from "@/assets/hero-2.jpeg";
 const bankDetails = {
   bankName: "First Bank of Nigeria",
   accountName: "INYOM Medical Outreach Foundation",
-  accountNumber: "3001234567"
+  accountNumber: "Under development",
 };
 
 const Support = () => {
