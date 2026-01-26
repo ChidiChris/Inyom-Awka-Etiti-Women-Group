@@ -169,6 +169,9 @@ const About = () => {
                                 In October 2025, Inyom Awka-Etiti successfully commissioned a multipurpose centre with an agro-processing (garri) facility. 
                                 This landmark project was designed to:
                                 <p>
+                                    <li>Built a community rest room in the market for all of the people in Awka Etiti who came to do business or transact.</li>
+                                    <li>Built the Awka-Etiti Women's hall for the women meeting and all kinds of events for the community.</li>
+                                    <li>Built a sustainable borehole facility to ensure constant water supply for the people of Awka Etiti.</li>
                                     <li>Support women engaged in agriculture and food processing.</li>
                                     <li>Create employment and income opportunities.</li>
                                     <li>Enhance local production capacity.</li>

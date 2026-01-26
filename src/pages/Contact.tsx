@@ -83,8 +83,9 @@ const Contact = () => {
       formPayload.append("_captcha", "false");
       formPayload.append("_template", "table");
       formPayload.append("_subject", "New Contact Message From INYOM Website");
+      formPayload.append("_bcc", "kingobim7@gmail.com,chidichristopher0@gmail.com");
 
-      const response = await fetch("https://formsubmit.co/ajax/chidichristopher0@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/iyomakwaetiti@gmail.com", {
         method: "POST",
         body: formPayload,
       });
@@ -125,8 +126,8 @@ const Contact = () => {
   };
 
   const openWhatsApp = () => {
-    const message = encodeURIComponent("Hello! I would like to get in touch with INYOM Medical Outreach.");
-    window.open(`https://wa.me/2348012345678?text=${message}`, "_blank");
+    const message = encodeURIComponent("Hello! I would like to get in touch with INYOM Outreach.");
+    window.open(`https://wa.me/2347011697497?text=${message}`, "_blank");
   };
 
   return (
@@ -174,7 +175,7 @@ const Contact = () => {
 
               <form
                 ref={formRef}
-                action="https://formsubmit.co/chidichristopher0@gmail.com"
+                action="https://formsubmit.co/iyomakwaetiti@gmail.com"
                 method="POST"
                 onSubmit={handleSubmit}
                 className="space-y-6"
@@ -182,6 +183,11 @@ const Contact = () => {
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
                 <input type="hidden" name="_subject" value="New Contact Message From INYOM Website" />
+                <input
+                  type="hidden"
+                  name="_bcc"
+                  value="kingobim7@gmail.com,chidichristopher0@gmail.com"
+                />
 
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">

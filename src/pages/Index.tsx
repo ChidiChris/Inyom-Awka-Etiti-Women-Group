@@ -14,9 +14,9 @@ import hero5 from "@/assets/hero-5.jpeg";
 import manifestoImg from "@/assets/manifesto.jpeg";
 const heroSlides = [
   {
-    image: hero5,
-    title: "Promoting unity among women of Awka-Etiti",
-    subtitle: "Empowering women through togetherness and collective growth"
+    image: hero4,
+    title: "Improving Social and Economic Wellbeing",
+    subtitle: "Building Stronger, More Prosperous Communities"
   },
   {
     image: hero2,
@@ -29,9 +29,9 @@ const heroSlides = [
     subtitle: "Upholding heritage, inspiring the future"
   },
   {
-    image: hero4,
-    title: "Improving Social and Economic Wellbeing",
-    subtitle: "Building Stronger, More Prosperous Communities"
+    image: hero5,
+    title: "Promoting unity among women of Awka-Etiti",
+    subtitle: "Empowering women through togetherness and collective growth"
   }
   // Add pictures on import then declear it's value on the heroSlides array above
 ];
@@ -143,7 +143,7 @@ const Index = () => {
                   "Agricultural Advancement: Access government grants, modern farming training, and cooperative support to enhance productivity and food security."
                 </p>
                 <p>
-                  "Technology & Innovation — Introduce digital literacy, ICT training, and tech projects to prepare women and youth for the modern economy."
+                  "Technology & Innovation: Introduce digital literacy, ICT training, and tech projects to prepare women and youth for the modern economy."
                 </p>
               </div>
               <p className="mt-6 font-display text-lg font-semibold text-foreground">
