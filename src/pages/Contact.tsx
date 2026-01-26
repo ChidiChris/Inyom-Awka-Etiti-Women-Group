@@ -83,7 +83,7 @@ const Contact = () => {
       formPayload.append("_captcha", "false");
       formPayload.append("_template", "table");
       formPayload.append("_subject", "New Contact Message From INYOM Website");
-      formPayload.append("_bcc", "kingobim7@gmail.com,chidichristopher0@gmail.com");
+      formPayload.append("_cc", "kingobim7@gmail.com,chidichristopher0@gmail.com");
 
       const response = await fetch("https://formsubmit.co/ajax/iyomakwaetiti@gmail.com", {
         method: "POST",
@@ -185,7 +185,7 @@ const Contact = () => {
                 <input type="hidden" name="_subject" value="New Contact Message From INYOM Website" />
                 <input
                   type="hidden"
-                  name="_bcc"
+                  name="_cc"
                   value="kingobim7@gmail.com,chidichristopher0@gmail.com"
                 />
 
